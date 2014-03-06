@@ -1,0 +1,38 @@
+{
+  "name": "oils-swig-marked",
+  "version": "0.1.0",
+  "description": "Oils js support for github flavored markdown.",
+  "keywords": [
+  	"oils",
+    "passport",
+    "authentication",
+    "authorization"
+  ],
+  "author": {
+    "name": "Manny Vergel",
+    "email": "manny@mvergel.com",
+    "url": "http://www.mvergel.com/"
+  },
+  "homepage": "http://mannyvergel.github.io/oils-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mannyvergel/oils-js.git"
+  },
+
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+
+  "dependencies": {
+    "swig-marked": "0.0.x"
+  },
+  "devDependencies": {},
+  "bundleDependencies": [],
+
+  "private": true,
+  "main": "oils-swig-marked.js",
+  "oils" : {
+    "enabled": true
+  }
+  
+}
